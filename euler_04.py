@@ -10,5 +10,5 @@ for i in xrange(100,1000):
         if is_palindrome(i*j):
                 pals.append(i*j)
 
-print pals[-1]                
+print max(pals)
 
